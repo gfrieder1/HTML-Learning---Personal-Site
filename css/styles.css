@@ -13,6 +13,7 @@ hr {
 }
 table {
   background-color: white;
+  border-radius: 10px;
 }
 h1 {
   color: #66BFBF;
@@ -23,6 +24,16 @@ h3 {
 
 /*****CLASS SELECTORS*****/
 
-.biotable {
+.backgroundTable {
   background-color: #CCF3EE;
+}
+
+/*****ID SELECTORS*****/
+
+#profilepic {
+  border-radius: 50%;
+}
+
+#profilepic:hover {
+  border-radius: 5%;
 }
